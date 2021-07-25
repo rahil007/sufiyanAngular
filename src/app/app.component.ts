@@ -9,10 +9,10 @@ export class AppComponent {
   title = 'learnNg';
 
   menuList = [
-    {
-      link: '/hello',
-      name: 'Hello'
-    },
+    // {
+    //   link: '/hello',
+    //   name: 'Hello'
+    // },
     {
       link: '/home',
       name: 'Home'
