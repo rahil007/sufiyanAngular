@@ -7,4 +7,25 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'learnNg';
+
+  menuList = [
+    {
+      link: '/hello',
+      name: 'Hello'
+    },
+    {
+      link: '/home',
+      name: 'Home'
+    },
+    {
+      link: '/about',
+      name: 'About'
+    }
+  ];
+
+  backgroundColor: string = 'white';
+
+  changeAppColor() {
+    this.backgroundColor = 'blue';
+  }
 }

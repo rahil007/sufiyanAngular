@@ -1,0 +1,4 @@
+<a *ngFor="let menu of menuList" [routerLink]="menu.link">{{ menu.name }}</a>
+<br>
+<app-counter></app-counter>
+<app-change-color (changeColor)="changeColorEvent()"></app-change-color>
